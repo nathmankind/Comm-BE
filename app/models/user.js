@@ -25,6 +25,9 @@ const UserSchema = mongoose.Schema(
     image: {
       type: String,
     },
+    isValidated: {
+      type: Boolean,
+    },
   },
   { timestamps: true }
 );
